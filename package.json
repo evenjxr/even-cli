@@ -1,0 +1,38 @@
+{
+  "name": "even-cli",
+  "version": "1.0.3",
+  "description": "Command line interface for rapid Vue.js Or react.js development ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evenjxr/even-cli.git"
+  },
+  "bin": {
+    "even": "bin/even.js"
+  },
+  "homepage": "",
+  "author": "evenjxr",
+  "license": "ISC",
+  "dependencies": {
+    "clear-console": "^1.1.0",
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.1",
+    "ora": "^4.0.3",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "keywords": [
+    "webpack4",
+    "cli",
+    "react",
+    "vue",
+    "spa"
+  ],
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^8.1.0"
+  }
+}
